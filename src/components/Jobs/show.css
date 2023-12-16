@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fcfcfc;
+}
+
+.show-item {
+    text-align: justify;
+    padding: 19px;
+}
+
+.show-item tr .title {
+    justify-content: space-between;
+    font-weight: bold;
+    display: flex;
+}
+
+.show-item .title .title-left td {
+    padding-left: 22px;
+}
+
+.show-item .title td Button {
+    padding: 2px 10px;
+}
+
+.show-item tr .part {
+    justify-content: space-between;
+    /* display: flex; */
+}
+
+.show-item .right-icon .icon2 {
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 222, 222);
+    padding: 7.5px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+
+.show-item .smalltxt {
+    font-size: small;
+}
+
+.show-item .threepart {
+    justify-content: space-between;
+}
+
+.show-item .threepart td {
+    margin: 0 7px 0 0;
+    background-color: rgb(238, 235, 235);
+    display: inline;
+    padding: 1px 7px;
+    border: 2px solid rgb(226, 222, 222);
+    border-radius: 7px;
+}
+
+.show-item .threepart2 {
+    justify-content: space-between;
+}
+
+.show-item .threepart2 td {
+    display: inline;
+    padding: 1px 7px;
+}
+
+/* ----------------------------------------- */
+
+@media (max-width:1050px) {
+    .show-item {
+        padding: 2px;
+    }
+
+    .show-item .title td Button {
+        padding: 2px 7px;
+    }
+
+}
+
+@media (max-width:790px) {
+    .show-item {
+        padding: 0px;
+        padding-top: 15px;
+    }
+}
+
+@media (max-width:760px) {
+    .show-item .title .title-left td {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width:650px) {
+    .show-item {
+        padding: 2px;
+    }
+
+}
+
+@media (max-width:715px)  {
+    .show-item .right-icon {
+        display: flex;
+        flex-direction: column;
+        overflow: none;
+    }
+
+    .smalltxt {
+        margin-top: -60px;
+    }
+
+}
+
+@media (max-width :620px) {
+
+    .show-item .threepart {
+        
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .show-item .threepart td {
+        margin: 2px;
+        padding: 2px 7px;
+    }
+}
+
+@media (max-width :520px) {
+
+    .show-item .threepart2 {
+        
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .show-item .threepart2 td {
+        margin: 2px;
+    }
+}
+

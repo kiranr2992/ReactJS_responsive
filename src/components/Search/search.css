@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fcfcfc;
+}
+
+.search_container {
+    /* position: relative; */
+    margin: 0 auto;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.search-components{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.S1{
+    background-color: white;
+    color: rgb(134, 126, 126);
+    border-radius: 10px;
+    width: 41%;
+    text-align: left;
+    padding: 5px 10px;
+}
+
+.S1 input{
+    width: 91%;
+}
+
+.find button{
+    background-color: rgb(20, 48, 188);
+    color: white;
+    border-radius: 10px;
+    padding: 7px 45px;
+}
+
+/* -------------------------------------------------------------- */
+
+
+@media (max-width:985px){
+    .search-components{
+        max-width: 100%;
+    }
+    .find button{
+        padding: 7px 22px;
+    }
+}
+@media (max-width:790px){
+    .search-components{
+        font-size: small;
+        max-width: 100%;
+    }
+    .find button{
+        padding: 7px 20px;
+    }   
+}
+
+@media (max-width: 660px) {
+    .search-components {
+      flex-direction: column; 
+      align-items: stretch; 
+    }
+  
+    .S1 {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .find button {
+      width: 100%; 
+    }
+  }
+
+  @media (max-width: 700px) {
+    .search_container {
+        font-size: medium;
+    }
+  }
+  
+
+
+
